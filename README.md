@@ -1,4 +1,4 @@
-# @simatic-ax.dynamics
+# Dynamics Library
 
 ## Description
 
@@ -26,10 +26,9 @@ apax add @simatic-ax/dynamics
 Simatic.Ax.Dynamics;
 ```
 
-## Objects
-
 ## Example
 
+```iec-st
 USING Simatic.Ax.Dynamics;
 
 [...]
@@ -53,6 +52,7 @@ dynamic.SetTDSeconds(4.5);
 // Use
 
 output = controller.Next(value, input);
+```
 
 
 ## Contribution
