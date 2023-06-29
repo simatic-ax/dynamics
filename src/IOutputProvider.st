@@ -1,0 +1,5 @@
+NAMESPACE Dynamics 
+    INTERFACE IOutputProvider
+        METHOD GetOutput : LREAL END_METHOD
+    END_INTERFACE
+END_NAMESPACE

@@ -1,9 +1,9 @@
 # General information
 name: "dynamics"
-version: 0.0.0-placeholder
+version: 1.0.0
 author: Siemens AG
 # Description will be displayed in the apax extension
-description: <add your description here, which will be shown in the apax extension>
+description: "Tools to work with dynamical systems"
 type: lib
 #URL to the repository
 repository:
@@ -13,14 +13,12 @@ repository:
 variables:
   APAX_BUILD_ARGS:
     - '--debug'
-targets:
-  - '1500'
-  - 'axunit-llvm'
-  - 'llvm'
-# Dependencies
+dependencies:
+  "@ax/simatic-1500-clocks": ^4.0.1
+  "@ax/system-math": ^4.0.6
 devDependencies:
-  '@ax/sdk': 3.0.10
-  "@simatic-ax/snippetscollection": 0.0.15
+  "@ax/sdk": ^4.0.3
+  "@ax/axunit-runner-llvm-win-x64": ^4.0.6
 # Registry information, where the package will be published
 registries:
   '@simatic-ax': 'https://npm.pkg.github.com/'
