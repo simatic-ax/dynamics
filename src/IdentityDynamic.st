@@ -1,4 +1,4 @@
-NAMESPACE Dynamics 
+NAMESPACE Simatic.Ax.Dynamics 
     CLASS IdentityDynamic IMPLEMENTS IDynamic                
     
         METHOD PUBLIC Next : LREAL

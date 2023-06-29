@@ -1,4 +1,4 @@
-NAMESPACE Dynamics
+NAMESPACE Simatic.Ax.Dynamics
     CLASS INTERNAL ABSTRACT FirstOrderOutputDynamic EXTENDS FirstOrderDynamic IMPLEMENTS IOutputDynamic
 
         VAR PRIVATE

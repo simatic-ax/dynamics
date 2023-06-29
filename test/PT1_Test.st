@@ -1,5 +1,5 @@
 USING AxUnit;
-USING Dynamics;
+USING Simatic.Ax.Dynamics;
 USING AxUnit;
 
 NAMESPACE MyTest

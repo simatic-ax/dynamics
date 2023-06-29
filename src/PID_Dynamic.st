@@ -1,4 +1,4 @@
-NAMESPACE Dynamics
+NAMESPACE Simatic.Ax.Dynamics
     CLASS PID_Dynamic EXTENDS ParallelFirstOrderDynamic
 
         VAR PRIVATE

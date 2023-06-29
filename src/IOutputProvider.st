@@ -1,4 +1,4 @@
-NAMESPACE Dynamics 
+NAMESPACE Simatic.Ax.Dynamics 
     INTERFACE IOutputProvider
         METHOD GetOutput : LREAL END_METHOD
     END_INTERFACE

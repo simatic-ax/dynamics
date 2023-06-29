@@ -1,4 +1,4 @@
-USING Dynamics;
+USING Simatic.Ax.Dynamics;
 NAMESPACE MyTest
     CLASS OutputComposedSignal IMPLEMENTS IOutputSignal
         VAR 

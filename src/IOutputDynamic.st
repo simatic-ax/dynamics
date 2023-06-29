@@ -1,4 +1,4 @@
-NAMESPACE Dynamics
+NAMESPACE Simatic.Ax.Dynamics
     INTERFACE IOutputDynamic EXTENDS IDynamic, IOutputProvider
         METHOD SetOutput : LREAL
             VAR_INPUT

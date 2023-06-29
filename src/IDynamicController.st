@@ -1,4 +1,4 @@
-NAMESPACE Dynamics
+NAMESPACE Simatic.Ax.Dynamics
     INTERFACE IDynamicController
 
         METHOD Next : LREAL 

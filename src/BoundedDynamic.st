@@ -1,4 +1,4 @@
-NAMESPACE Dynamics
+NAMESPACE Simatic.Ax.Dynamics
     CLASS BoundedDynamic IMPLEMENTS IDynamic
 
         VAR PUBLIC 

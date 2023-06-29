@@ -1,6 +1,6 @@
 USING TimeProviders;
 USING TimeProviders;
-NAMESPACE Dynamics
+NAMESPACE Simatic.Ax.Dynamics
     CLASS INTERNAL ABSTRACT ParallelFirstOrderDynamic EXTENDS FirstOrderDynamic
 
         VAR PUBLIC

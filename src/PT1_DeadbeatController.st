@@ -1,5 +1,5 @@
 USING System.Math;
-NAMESPACE Dynamics 
+NAMESPACE Simatic.Ax.Dynamics 
     CLASS PT1_DeadbeatController EXTENDS Controller IMPLEMENTS IDynamicController
 
         VAR PROTECTED 

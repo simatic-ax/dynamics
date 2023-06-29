@@ -1,4 +1,4 @@
-NAMESPACE Dynamics
+NAMESPACE Simatic.Ax.Dynamics
     CLASS PT1_Dynamic EXTENDS FirstOrderOutputDynamic
 
         VAR PUBLIC 

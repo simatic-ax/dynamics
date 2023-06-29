@@ -1,4 +1,4 @@
-NAMESPACE Dynamics
+NAMESPACE Simatic.Ax.Dynamics
     CLASS BoundedOutputDynamic EXTENDS BoundedDynamic IMPLEMENTS IOutputDynamic
 
         VAR PRIVATE

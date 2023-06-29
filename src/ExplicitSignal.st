@@ -1,4 +1,4 @@
-NAMESPACE Dynamics
+NAMESPACE Simatic.Ax.Dynamics
     CLASS ABSTRACT ExplicitSignal IMPLEMENTS IOutputSignal
 
         VAR PRIVATE 

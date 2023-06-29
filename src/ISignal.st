@@ -1,4 +1,4 @@
-NAMESPACE Dynamics
+NAMESPACE Simatic.Ax.Dynamics
     INTERFACE ISignal
         METHOD Next : LREAL END_METHOD
     END_INTERFACE

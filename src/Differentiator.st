@@ -1,4 +1,4 @@
-NAMESPACE Dynamics
+NAMESPACE Simatic.Ax.Dynamics
     CLASS Differentiator EXTENDS FirstOrderDynamic
 
         VAR PUBLIC 

@@ -1,5 +1,5 @@
 USING TimeProviders;
-NAMESPACE Dynamics
+NAMESPACE Simatic.Ax.Dynamics
     CLASS INTERNAL ABSTRACT FirstOrderDynamic IMPLEMENTS IDynamic
 
         VAR PUBLIC 

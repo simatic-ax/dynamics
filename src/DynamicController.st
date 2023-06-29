@@ -1,4 +1,4 @@
-NAMESPACE Dynamics
+NAMESPACE Simatic.Ax.Dynamics
     CLASS DynamicController EXTENDS Controller IMPLEMENTS IDynamic, IDynamicController
 
         VAR PUBLIC 

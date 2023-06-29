@@ -1,4 +1,4 @@
-NAMESPACE Dynamics
+NAMESPACE Simatic.Ax.Dynamics
     CLASS PI_Dynamic EXTENDS ParallelFirstOrderDynamic
 
         VAR PRIVATE
