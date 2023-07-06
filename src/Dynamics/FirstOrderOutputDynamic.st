@@ -1,4 +1,6 @@
 NAMESPACE Simatic.Ax.Dynamics
+    /// Dynamic exploiting the elapsed time since last call and last output value
+    /// `elapsedTimeProvider` must be given!
     CLASS INTERNAL ABSTRACT FirstOrderOutputDynamic EXTENDS FirstOrderDynamic IMPLEMENTS IOutputDynamic
 
         VAR PRIVATE
@@ -16,6 +18,7 @@ NAMESPACE Simatic.Ax.Dynamics
             SetOutput := _output;
         END_METHOD
 
+        /// Maps process value, elapsed time since last call and last output value to next output value
         METHOD PROTECTED ABSTRACT _Next : LREAL
             VAR_INPUT
                 value : LREAL;

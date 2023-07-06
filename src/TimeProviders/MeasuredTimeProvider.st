@@ -1,5 +1,6 @@
 USING Siemens.Simatic.S71500.Clocks;
-NAMESPACE TimeProviders
+NAMESPACE Simatic.Ax.Dynamics
+    /// Uses a `Siemens.Simatic.S71500.Clocks.RuntimeMeasurement` 
     CLASS MeasuredTimeProvider IMPLEMENTS IElapsedSecondsProvider 
         
         VAR PRIVATE
@@ -14,5 +15,5 @@ NAMESPACE TimeProviders
             _measurement.Start();
         END_METHOD
 
-END_CLASS
+    END_CLASS
 END_NAMESPACE

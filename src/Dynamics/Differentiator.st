@@ -2,6 +2,7 @@ NAMESPACE Simatic.Ax.Dynamics
     CLASS Differentiator EXTENDS FirstOrderDynamic
 
         VAR PUBLIC 
+            /// Lead time in seconds
             tDSeconds : LREAL;
         END_VAR
 
@@ -9,15 +10,19 @@ NAMESPACE Simatic.Ax.Dynamics
             _value : LREAL;
         END_VAR
         
+        /// Get lead time in seconds
         METHOD PUBLIC GetTDSeconds : LREAL
             GetTDSeconds := tDSeconds;
         END_METHOD
+        /// Set lead time in seconds
         METHOD PUBLIC SetTDSeconds
             VAR_INPUT 
                 newTDSeconds : LREAL;
             END_VAR
             tDSeconds := newTDSeconds;
         END_METHOD  
+        /// Set lead time in seconds and amplification
+        /// SetTDSeconds(newTDSeconds, k) is equivalent to SetTDSeconds(newTDSeconds * k)
         METHOD PUBLIC SetTDSeconds
             VAR_INPUT 
                 newTDSeconds : LREAL;
@@ -26,6 +31,7 @@ NAMESPACE Simatic.Ax.Dynamics
             THIS.SetTDSeconds(newTDSeconds * k);
         END_METHOD   
 
+        /// Get last process value
         METHOD INTERNAL GetValue : LREAL
             GetValue := _value;
         END_METHOD

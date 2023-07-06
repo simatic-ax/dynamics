@@ -1,15 +1,16 @@
 NAMESPACE Simatic.Ax.Dynamics
     CLASS Amplifier IMPLEMENTS IDynamic
 
+        /// Amplification
         VAR PUBLIC
             k : LREAL := 1.0;
         END_VAR
 
-        // Get K
+        /// Get amplification
         METHOD PUBLIC GetK : LREAL
             GetK := k;
         END_METHOD
-        // Set K
+        /// Set ampflification
         METHOD PUBLIC SetK 
             VAR_INPUT 
                 newK : LREAL;

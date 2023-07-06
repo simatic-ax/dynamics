@@ -1,6 +1,8 @@
 NAMESPACE Simatic.Ax.Dynamics
     INTERFACE IDynamicController
 
+        /// Pass process value and input
+        /// Get next output
         METHOD Next : LREAL 
             VAR_INPUT
                 value : LREAL;
