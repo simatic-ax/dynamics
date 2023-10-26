@@ -29,3 +29,7 @@ files:
   - 'doc'
   - 'src'
   - 'snippets'
+targets:
+  - "1500"
+  - "plcsim"
+  - "axunit-llvm"
