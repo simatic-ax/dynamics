@@ -1,5 +1,5 @@
 # General information
-name: "dynamics"
+name: "@simatic-ax/dynamics"
 version: 1.0.0
 author: Siemens AG
 # Description will be displayed in the apax extension
