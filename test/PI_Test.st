@@ -10,7 +10,22 @@ NAMESPACE MyTest
             ramp                        : RampSignal;
             expected                    : ParallelSignal;
             dynamic                     : PI_Dynamic;
+
+            valueinit                       : ConstantSignal;
+            stepinit                        : ConstantSignal;
+            rampinit                        : RampSignal;
+            expectedinit                    : ParallelSignal;
+            dynamicinit                     : PI_Dynamic;
         END_VAR
+
+        {TestTeardown}
+        METHOD PUBLIC reset
+            value    := valueinit   ;
+            step     := stepinit    ;
+            ramp     := rampinit    ;
+            expected := expectedinit;
+            dynamic  := dynamicinit ;
+        END_METHOD
 
         {Test(valueStepheight :=  1.0, k :=   1   , t := 1)}
         {Test(valueStepheight :=  5.7, k :=   0.23, t := 1.56)}

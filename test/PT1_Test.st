@@ -8,8 +8,13 @@ NAMESPACE MyTest
 
         VAR 
             dynamic : PT1_Dynamic;
+            dynamicinit : PT1_Dynamic;
         END_VAR 
 
+    {TestTearDown}
+    METHOD PUBLIC reset
+        dynamic := dynamicinit;
+    END_METHOD
 
         {Test(valueStepheight :=  1.0, k :=   1   , t0 := 1)}
         {Test(valueStepheight :=  2.0, k :=   1   , t0 := 1)}

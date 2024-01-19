@@ -14,11 +14,11 @@ variables:
   APAX_BUILD_ARGS:
     - '--debug'
 dependencies:
-  "@ax/simatic-1500-clocks": ^4.0.1
-  "@ax/system-math": ^4.0.6
+  "@ax/simatic-1500-clocks": ^6.0.37
+  "@ax/system-math": ^6.0.94
 devDependencies:
-  "@ax/sdk": ^4.0.12
-  "@ax/axunit-runner-llvm-win-x64": ^4.0.7
+  "@ax/sdk": ^2311.0.1
+  "@ax/axunit-runner-llvm-win-x64": ^5.0.1
 # Registry information, where the package will be published
 registries:
   '@simatic-ax': 'https://npm.pkg.github.com/'
@@ -32,4 +32,6 @@ files:
 targets:
   - "1500"
   - "plcsim"
-  - "axunit-llvm"
+  - "llvm"
+installStrategy: strict
+apaxVersion: 3.1.0
