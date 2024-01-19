@@ -17,7 +17,7 @@ dependencies:
   "@ax/simatic-1500-clocks": ^4.0.1
   "@ax/system-math": ^4.0.6
 devDependencies:
-  "@ax/sdk": ^4.0.12
+  "@ax/sdk": ^2311.0.0
   "@ax/axunit-runner-llvm-win-x64": ^4.0.7
 # Registry information, where the package will be published
 registries:
