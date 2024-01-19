@@ -7,7 +7,14 @@ NAMESPACE MyTest
 
         VAR 
             actual : RampSignal;
+
+            actualinit : RampSignal;
         END_VAR
+
+        {TestTearDown}
+        METHOD PUBLIC reset
+            actual := actualinit;
+        END_METHOD
 
         {Test(slope := 1)}
         {Test(slope := -2.7)}
