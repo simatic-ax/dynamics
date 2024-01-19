@@ -18,7 +18,7 @@ dependencies:
   "@ax/system-math": ^4.0.6
 devDependencies:
   "@ax/sdk": ^4.0.12
-  "@ax/axunit-runner-llvm-win-x64": ^4.0.7
+  "@ax/axunit-runner-llvm-win-x64": ^5.0.0
 # Registry information, where the package will be published
 registries:
   '@simatic-ax': 'https://npm.pkg.github.com/'
