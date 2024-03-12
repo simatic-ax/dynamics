@@ -51,7 +51,7 @@ dynamic.SetTDSeconds(4.5);
 
 // Use
 
-output = controller.Next(value, input);
+output := controller.Next(value, input);
 ```
 
 ## Contribution
