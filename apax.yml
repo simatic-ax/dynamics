@@ -14,7 +14,7 @@ variables:
   APAX_BUILD_ARGS:
     - '--debug'
 dependencies:
-  "@ax/simatic-1500-clocks": ^6.0.37
+  "@ax/simatic-1500-clocks": ^7.0.0
   "@ax/system-math": ^6.0.94
 devDependencies:
   "@ax/sdk": ^2311.0.1
