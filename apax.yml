@@ -9,19 +9,27 @@ type: lib
 repository:
   type: git
   url: https://github.com/simatic-ax/dynamics
+# Registry information, where the package will be published
+registries:
+  '@simatic-ax': 'https://npm.pkg.github.com/'
 # Environment variables
 variables:
   APAX_BUILD_ARGS:
     - '--debug'
-dependencies:
-  "@ax/simatic-1500-clocks": ^6.0.37
-  "@ax/system-math": ^6.0.94
+targets:
+  - "1500"
+  - "plcsim"
+  - "llvm"
+# Install Setting
+installStrategy: strict
+apaxVersion: 3.2.1
+# Dependencies
 devDependencies:
-  "@ax/sdk": ^2311.0.1
-  "@ax/axunit-runner-llvm-win-x64": ^5.0.1
-# Registry information, where the package will be published
-registries:
-  '@simatic-ax': 'https://npm.pkg.github.com/'
+  "@ax/sdk": 2405.0.0
+  "@ax/axunit-runner-llvm-win-x64": 5.0.4
+dependencies:
+  "@ax/simatic-1500-clocks": 7.0.4
+  "@ax/system-math": 7.0.17
 # Files, which will be shipped with the library
 files:
   - 'README.md'
@@ -29,9 +37,3 @@ files:
   - 'doc'
   - 'src'
   - 'snippets'
-targets:
-  - "1500"
-  - "plcsim"
-  - "llvm"
-installStrategy: strict
-apaxVersion: 3.1.0
