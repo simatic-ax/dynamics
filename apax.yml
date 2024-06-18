@@ -18,7 +18,6 @@ variables:
     - '--debug'
 targets:
   - "1500"
-  - "plcsim"
   - "llvm"
 # Install Setting
 installStrategy: strict
