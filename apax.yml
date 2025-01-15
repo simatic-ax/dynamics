@@ -28,7 +28,7 @@ devDependencies:
   "@ax/axunit-runner-llvm-win-x64": 5.0.4
 dependencies:
   "@ax/simatic-1500-clocks": 7.0.4
-  "@ax/system-math": 7.0.17
+  "@ax/system-math": 7.1.47
 # Files, which will be shipped with the library
 files:
   - 'README.md'
