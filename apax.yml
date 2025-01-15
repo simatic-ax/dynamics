@@ -24,7 +24,7 @@ installStrategy: strict
 apaxVersion: 3.2.1
 # Dependencies
 devDependencies:
-  "@ax/sdk": 2405.0.0
+  "@ax/sdk": 2405.3.0
   "@ax/axunit-runner-llvm-win-x64": 5.0.4
 dependencies:
   "@ax/simatic-1500-clocks": 7.0.4
