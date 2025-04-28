@@ -2,16 +2,20 @@
 name: "@simatic-ax/dynamics"
 version: 1.0.0
 author: Siemens AG
+
 # Description will be displayed in the apax extension
 description: "Tools to work with dynamical systems"
 type: lib
+
 #URL to the repository
 repository:
   type: git
   url: https://github.com/simatic-ax/dynamics
+
 # Registry information, where the package will be published
 registries:
   '@simatic-ax': 'https://npm.pkg.github.com/'
+
 # Environment variables
 variables:
   APAX_BUILD_ARGS:
@@ -19,15 +23,18 @@ variables:
 targets:
   - "1500"
   - "llvm"
+
 # Install Setting
 installStrategy: strict
 apaxVersion: 3.2.1
+
 # Dependencies
 devDependencies:
   "@ax/sdk": ^2411.0.0
 dependencies:
   "@ax/simatic-1500-clocks": ^8.0.8
   "@ax/system-math": ^8.0.7
+
 # Files, which will be shipped with the library
 files:
   - 'README.md'
