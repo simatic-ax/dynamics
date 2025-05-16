@@ -1,6 +1,6 @@
 # General information
 name: "@simatic-ax/dynamics"
-version: 1.0.0
+version: 3.0.0
 author: Siemens AG
 
 # Description will be displayed in the apax extension
@@ -26,19 +26,23 @@ targets:
 
 # Install Setting
 installStrategy: strict
-apaxVersion: 3.2.1
+apaxVersion: 3.5.0
+
+# Catalogs
+catalogs:
+  "@ax/simatic-ax": ^2504.0.0
 
 # Dependencies
 devDependencies:
-  "@ax/sdk": ^2411.2.0
+  "@ax/sdk": ^2504.0.0
 dependencies:
-  "@ax/simatic-1500-clocks": ^8.0.8
-  "@ax/system-math": ^8.0.8
+  "@ax/simatic-1500-clocks": ^10.0.6
+  "@ax/system-math": ^10.0.24
 
 # Files, which will be shipped with the library
 files:
   - 'README.md'
   - 'LICENSE.md'
   - 'doc'
-  - 'src'
+  - 'bin'
   - 'snippets'
