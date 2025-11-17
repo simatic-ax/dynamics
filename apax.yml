@@ -32,12 +32,17 @@ apaxVersion: 3.5.0
 catalogs:
   "@ax/simatic-ax": ^2510.0.0
 
+publicKeys:
+  "@simatic-ax":
+    "v1": "3792a7e926775425ccdd29ceed8c368c3008b5b33d7d5550b3cb1f58093e1dff"
+    "v2": "7af3e394eb2b285a3d99ab8e1f745cc6db75704b30a80393339c721a92ffffd9"
+
 # Dependencies
 devDependencies:
   "@ax/sdk": ^2510.0.0
 dependencies:
-  "@ax/simatic-1500-clocks": ^10.0.6
-  "@ax/system-math": ^10.0.24
+  "@ax/simatic-clocks": ^11.0.14
+  "@ax/system-math": ^10.2.7
 
 # Files, which will be shipped with the library
 files:
