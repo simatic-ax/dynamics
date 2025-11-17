@@ -7,8 +7,8 @@
     "name": "@simatic-ax/dynamics",
     "version": "3.0.0",
     "dependencies": {
-      "@ax/simatic-1500-clocks": "^10.0.6",
-      "@ax/system-math": "^10.0.24"
+      "@ax/simatic-clocks": "^11.0.14",
+      "@ax/system-math": "^10.2.7"
     },
     "devDependencies": {
       "@ax/sdk": "^2510.0.0"
@@ -406,11 +406,11 @@
         "@ax/trace": "3.1.0"
       }
     },
-    "@ax/simatic-1500-clocks": {
-      "name": "@ax/simatic-1500-clocks",
-      "version": "10.0.64",
-      "integrity": "sha512-LWI6z2ZP/h2UwOTgl1cAyL0R30NX8uG9OoPKUN9tPMdaHRNj3gMYFHsea11pcaPsfHFT2l3e6BEQKz43JThGjA==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/simatic-1500-clocks/-/simatic-1500-clocks-10.0.64.tgz",
+    "@ax/simatic-clocks": {
+      "name": "@ax/simatic-clocks",
+      "version": "11.0.14",
+      "integrity": "sha512-TLlV+2uV9vjhxh7c0newDhj2pIiR2blN36Ztf7hPQxG6DloDLKAbYkZpHEUMi/lhC5gIiSAUnBPbDKOnXoA2AQ==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/simatic-clocks/-/simatic-clocks-11.0.14.tgz",
       "dependencies": {}
     },
     "@ax/simatic-package-tool": {

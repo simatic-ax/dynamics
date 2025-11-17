@@ -36,8 +36,8 @@ catalogs:
 devDependencies:
   "@ax/sdk": ^2510.0.0
 dependencies:
-  "@ax/simatic-1500-clocks": ^10.0.6
-  "@ax/system-math": ^10.0.24
+  "@ax/simatic-clocks": ^11.0.14
+  "@ax/system-math": ^10.2.7
 
 # Files, which will be shipped with the library
 files:
