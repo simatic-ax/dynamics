@@ -40,9 +40,9 @@ NAMESPACE Simatic.Ax.Dynamics
             VAR_INPUT 
                 value : LREAL;
             END_VAR
-            IF      value < this.GetInput() - hysteresis THEN 
+            IF      value < this.GetInput() - hysteresis * 0.5 THEN 
                 _output := _heatingMode;
-            ELSIF   value > this.GetInput() + hysteresis THEN
+            ELSIF   value > this.GetInput() + hysteresis * 0.5  THEN
                 _output := NOT _heatingMode;
             END_IF;
             Next := _output;
