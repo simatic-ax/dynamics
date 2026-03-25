@@ -11,9 +11,9 @@ NAMESPACE MyTest
         // value0, value1, value2 and value3 are inside hysteresis
         {Test(input := 0, hysteresis := 1, output := FALSE, value0 := 0, value1 := 0, value2 := 0, value3 := 0)}
         {Test(input := 0, hysteresis := 1, output :=  TRUE, value0 := 0, value1 := 0, value2 := 0, value3 := 0)}
-        {Test(input := 0, hysteresis := 1, output :=  TRUE, value0 := 0, value1 := -1, value2 := 1, value3 := 0.5)}
-        {Test(input := 0, hysteresis := 10, output := FALSE, value0 := 2, value1 := -3, value2 := 5.7, value3 := -3.9)}
-        {Test(input := 0, hysteresis := 83, output := TRUE, value0 := 20, value1 := -82.9, value2 := -83, value3 := 1.7)}
+        {Test(input := 0, hysteresis := 1, output :=  TRUE, value0 := 0, value1 := -0.5, value2 := 0.5, value3 := 0.25)}
+        {Test(input := 0, hysteresis := 10, output := FALSE, value0 := 2, value1 := -3, value2 := 4.7, value3 := -3.9)}
+        {Test(input := 0, hysteresis := 83, output := TRUE, value0 := 20, value1 := -41.4, value2 := -41.5, value3 := 1.7)}
         METHOD PUBLIC TestWithinHysteresis
             VAR_INPUT
                 input : LREAL;
