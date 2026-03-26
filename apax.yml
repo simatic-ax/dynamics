@@ -26,11 +26,10 @@ targets:
 
 # Install Setting
 installStrategy: strict
-apaxVersion: 3.5.0
 
 # Catalogs
 catalogs:
-  "@ax/simatic-ax": ^2510.0.0
+  "@ax/simatic-ax": ^2510.8.0
 
 publicKeys:
   "@simatic-ax":
