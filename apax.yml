@@ -16,20 +16,13 @@ repository:
 registries:
   '@simatic-ax': 'https://npm.pkg.github.com/'
 
-# Environment variables
-variables:
-  APAX_BUILD_ARGS:
-    - '--debug'
-targets:
-  - "1500"
-  - "llvm"
 
 # Install Setting
 installStrategy: strict
 
 # Catalogs
 catalogs:
-  "@ax/simatic-ax": ^2510.8.0
+  "@ax-as/s7-catalog": ^2610.1.0
 
 publicKeys:
   "@simatic-ax":
@@ -38,15 +31,16 @@ publicKeys:
 
 # Dependencies
 devDependencies:
-  "@ax/sdk": ^2510.0.0
+  "@ax-as/s7-sdk": ^2610.1.0
 dependencies:
-  "@ax/simatic-clocks": ^11.0.14
-  "@ax/system-math": ^10.2.7
+  "@ax-as/s7-clocks-lib": ^12.0.86
+  "@ax-as/system-math-lib": ^11.0.232
 
 # Files, which will be shipped with the library
 files:
   - 'README.md'
   - 'LICENSE.md'
   - 'doc'
-  - 'bin'
+  - 'out/Debug/s7'
+  - 'out/Debug/llvm'
   - 'snippets'
