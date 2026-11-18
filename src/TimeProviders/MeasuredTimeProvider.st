@@ -1,4 +1,4 @@
-USING Siemens.Simatic.Clocks;
+USING Siemens.S7.Clocks;
 NAMESPACE Simatic.Ax.Dynamics
     /// Uses a `Siemens.Simatic.S71500.Clocks.RuntimeMeasurement` 
     CLASS MeasuredTimeProvider IMPLEMENTS IElapsedSecondsProvider 
